@@ -1,0 +1,61 @@
+body {
+    background:linear-gradient(rgb(2, 43, 2), whitesmoke, rgb(2, 43, 2));
+
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+.card {
+    background-color: rgba(245, 245, 245, 0.384);
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+    margin: 50px;
+    box-shadow: 1px 1px 2px 2px black;
+}
+
+label {
+    width: 100px;
+    height: 2px;
+    padding: 10px;
+}
+
+.long-button {
+    width: 300px;
+    height: 30px;
+    color: whitesmoke;
+    background:linear-gradient(whitesmoke, rgb(2, 43, 2));
+    font-size: 17px;
+    text-shadow: 4px 4px 4px black;
+    border-radius: 10px;
+}
+input {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 3px;
+}
+h1{
+    color: rgb(206, 6, 40);
+    text-shadow: 4px 4px 4px black;
+    font-size: 50px;
+font-style: italic;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+}
+  
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #201e1e;
+  }
+  
+  .or {
+    padding: 0 10px;
+  }
+  
